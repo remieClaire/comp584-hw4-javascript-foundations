@@ -90,7 +90,7 @@ function calculateArea(width, height) {
 console.log("Output: " + calculateArea(5, 10));
 
 // Exercise 12: Array Manipulation
-var fruitList = [`Apple`, `Banana`];
+let fruitList = [`Apple`, `Banana`];
 
 // add string 'Grape' to end of array
 fruitList.push(`Grape`);
@@ -102,3 +102,26 @@ console.log(fruitList);
 
 //log index number of 'Banana'
 console.log(fruitList.indexOf(`Banana`));
+
+// Exercise 13: Array Copying
+
+let originalData = [1, 2, 3, 4];
+
+let clonedData = originalData.slice();
+console.log(clonedData);
+
+// Exercise 14: Object Constructor
+
+function Animal(species, sound) {
+    this.species = species;
+    this.sound = sound;
+}
+
+// Exercise 15: Object Instantiation
+let dog = new Animal("Canine", "Woof");
+let cat = new Animal("Feline", "Meow");
+
+let animalArray = [];
+animalArray.push(dog);
+animalArray.push(cat);
+console.log(animalArray);
