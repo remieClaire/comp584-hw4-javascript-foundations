@@ -67,19 +67,18 @@ for (var n = 0; n < 10; n++) {
     }
 }
 
-/*
+
 // Exercise 10: Ensuring Execution
 
 let counter = 10;
 
 do {
     console.log("Running once");
-    counter--;s
+    counter--;
 }
-while (counter > 9) {
-    console.log("Failed");
-}
-*/
+// decrease counter so it only runs once
+while (counter > 9) {}
+
 
 // SECTION 3
 // Exercise 11: Function Definition
